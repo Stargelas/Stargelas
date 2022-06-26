@@ -1,0 +1,98 @@
+<!Doctype html>
+
+	<head>
+	
+		<link rel="stylesheet" href="mystile.css">
+		
+	</head>
+	
+	
+	<body>
+		<div class="title-group">
+				<div class="title-sub">
+					<h1>
+						Poezija
+					</h1>
+				</div>
+				<div class="title-sub">
+				</div>
+				<div class="title-dub">
+					<h6> 
+						<a href="index.html" target="_self"> Pagrindinis </a> 
+						&emsp;
+						<a href="archyvas.html" target="_self"> Archyvas </a> 
+						&emsp;
+						<a href="kategorijos.html" target="_self"> Kategorijos </a> 
+						&emsp;
+						<a href="kontaktai.html" target="_self"> Kontaktai </a> 
+					</h6>
+				</div>
+				
+		</div>
+		<br>
+		<br>
+			<button type="button" class="collapsible" id="2022"><h2>Projekto pavadinimas</h2></button>
+			<div class="content">
+				<h3>
+					<ul>
+						<a href="rasyba.html" target="_self"><li>06-24&emsp; Apsakymas: „Iškritimas iš Bedugnės".</li></a>
+						<a href="muzika.html" target="_self"><li>05-16&emsp; Daina pagal poeto Henriko Radausko eiles.</li></a>
+					</ul>
+				</h3>
+			</div>
+		<br>
+		<br>
+		<div class="tris">
+						<h3>
+							hi
+						</h3>
+		</div>
+		<br>
+			<br>
+			<div class="bottomtitle-group">
+
+				<div class="bottomtitle-dub">
+					<h6> 
+						<a href="index.html" target="_self"> YouTube </a> 	
+					</h6>
+				</div>
+				<div class="bottomtitle-dub">
+					<h6> 
+						
+					</h6>
+				</div>
+				<div class="bottomtitle-dub">
+					<h6> 
+						<a href="index.html" target="_self"> Pagrindinis </a> 
+						&emsp;
+						<a href="archyvas.html" target="_self"> Archyvas </a> 
+						&emsp;
+						<a href="kontaktai.html" target="_self"> Kontaktai </a> 
+					</h6>
+				</div>
+				
+		</div>
+		
+		
+		
+	<script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+
+			for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.maxHeight){
+				content.style.maxHeight = null;
+				} else {
+				content.style.maxHeight = content.scrollHeight + "px";
+					}	
+				});
+			}
+	</script>
+	
+	</body>
+	
+
+</html>
