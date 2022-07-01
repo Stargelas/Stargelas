@@ -27,7 +27,7 @@
 			}
 			
 			h3{
-			text-shadow: 2px 2px var(--titleshadowcolor);
+			text-shadow: 2px 2px var(--titlecolor);
 			font-size: 1.75em;
 			}
 			
@@ -108,6 +108,8 @@
 			background-color: #fce7a9;
 			}
 			
+			
+			
 			.content{
 			border : 1px solid var(--backgroundcolor);
 			text-shadow: 1px 1px var(--shadowcolor);
@@ -127,7 +129,7 @@
 			
 			.title-group{
 			display : grid ;
-			grid-template-columns: auto auto auto;
+			grid-template-columns: 40% 30% 30%;
 			text-align : center ;
 			background-color: #fac31e ;
 			width : 70% ;
@@ -292,7 +294,7 @@
 			}
 			
 			.collapsible_2:hover{
-			background-color: #fce7a9;
+			background-color: #faefcf;
 			}
 			
 			.content_2{
@@ -303,12 +305,33 @@
 			transition : max-height 0.1s ease-out;
 			text-shadow: 1px 1px var(--shadowcolor);
 			color : var(--textcolor) ; 
-			text-align : left ;
-			border : 1px solid var(--backgroundcolor);
+			text-align : center ;
 			}
 			
+			.content_title_group_2{
+			display : grid ;
+			grid-template-columns: 40% 60%;
+			background-color: var(--frontcolor);
+			text-align: center;
+			font-size: 15px;
+			margin : auto ;
+			}
 			
+			.aprasimas img{
+			width : 50% ;
+			}
+			
+			.content_title_sub a{
+			font-size: 0.8em ;
+			}
+			
+			.content_2 a{
+			font-size: 0.8em ;
+			}
 
+			.active{
+			background-color: #ffe187;
+			}
 			
 			
 			
