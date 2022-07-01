@@ -31,20 +31,38 @@
 		</div>
 		<br>
 		<br>
+		
 			<button type="button" class="collapsible" id="geleneklauso"><h2>Skaitmeninis piešinys „Gėlė neklauso"</h2></button>
 			<div class="content">
 				<div class="aprasimas">
-				<p>Gėlė</p>
-			</div>
+					<img src="content/Gele_neklauso.jpg" alt="Gele_neklauso">
+				</div>
 			</div>
 		<br>
-			<button type="button" class="collapsible" id="kodelneveikia"><h2>Piešiniai knygiukams „Kodėl neveikia?"</h2></button>
-			<div class="content">
-				<div class="aprasimas">
-				<p>Jungtukas</p>
-			</div>
-			</div>
 		
+		
+			<div class="content_title_group">
+				<div class="item1">
+					<img src="content/Gele_neklauso.jpg" alt="Gele_neklauso">
+				</div>
+				<div class="content_title_sub">
+					<h2>„Gėlė neklauso“</h2>
+				</div>
+					<button type="button" class="collapsible_2" id="geleneklauso"><h2>Daugiau</h2></button>
+				<div class="content_2">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						<br>
+						<a href="content/Gele_neklauso.jpg" download>
+						Atsisiūsti
+						</a>
+						</p>
+				</div>
+			</div>
+			
+			
+			<br>
+				
 		<br>
 		<br>
 		<div class="tris">
@@ -82,6 +100,22 @@
 		
 	<script>
 			var coll = document.getElementsByClassName("collapsible");
+			var i;
+
+			for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.maxHeight){
+				content.style.maxHeight = null;
+				} else {
+				content.style.maxHeight = content.scrollHeight + "px";
+					}	
+				});
+			}
+			
+			
+			var coll = document.getElementsByClassName("collapsible_2");
 			var i;
 
 			for (i = 0; i < coll.length; i++) {

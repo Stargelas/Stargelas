@@ -53,6 +53,10 @@
 			border: 1px solid var(--bordercolor);
 			}
 			
+			img{
+			width : 70% ;
+			}
+			
 			
 			.git:hover {
 			color : #b58adb ;
@@ -88,7 +92,7 @@
     		text-decoration: underline;
   			}
 			
-			.collapsible {
+			.collapsible{
 			background-color: var(--frontcolor);
 			color: var(--textcolor);
 			border : 1px solid var(--bordercolor);
@@ -100,11 +104,11 @@
 			font-size: 15px;
 			}
 			
-			.collapsible:hover {
+			.collapsible:hover{
 			background-color: #fce7a9;
 			}
 			
-			.content {
+			.content{
 			border : 1px solid var(--backgroundcolor);
 			text-shadow: 1px 1px var(--shadowcolor);
 			color : var(--textcolor) ; 
@@ -226,7 +230,7 @@
 			text-align: left ;
 			}
 			
-			.keturis {
+			.keturis{
 			border : 1px solid var(--bordercolor);
 			text-shadow: 1px 1px var(--shadowcolor);
 			color : var(--textcolor) ; 
@@ -236,8 +240,7 @@
 			margin : auto ;
 			}
 			
-			.aprasimas {
-
+			.aprasimas{
 			text-shadow: 1px 1px var(--shadowcolor);
 			color : var(--textcolor) ; 
 			text-align : left ;
@@ -246,8 +249,66 @@
 			margin : auto ;
 			}
 			
+			.content_title_group{
+			display : grid ;
+			grid-template-columns: 40% 60%;
+			background-color: var(--frontcolor);
+			color: var(--textcolor);
+			border : 1px solid var(--bordercolor);
+			width: 70%;
+			text-align: center;
+			font-size: 15px;
+			margin : auto ;
+			}
+			
+			.item1{
+			grid-row-start: 1 ;
+			grid-row-end: 3 ;
+			width : 80% ;
+			}
+			
+			.content_title_sub{
+			padding-top : 20px ;
+			padding-bottom : 20px ;
+			padding-right : 50px
+			margin : auto ;
+			
+			}
+			
+			.content_title_sub h2{
+			font-size: 4em;
+			}
+			
+			.collapsible_2{
+			background-color: var(--frontcolor);
+			color: var(--textcolor);
+			border : 1px solid var(--bordercolor);
+			cursor: pointer;
+			text-align: center;
+			outline: none;
+			font-size: 0.5em ;
+			width : 15% ;
+			margin : auto ;
+			}
+			
+			.collapsible_2:hover{
+			background-color: #fce7a9;
+			}
+			
+			.content_2{
+			grid-column-start: 1;
+			grid-column-end: 3;
+			max-height : 0 ;
+			overflow : hidden;
+			transition : max-height 0.1s ease-out;
+			text-shadow: 1px 1px var(--shadowcolor);
+			color : var(--textcolor) ; 
+			text-align : left ;
+			border : 1px solid var(--backgroundcolor);
+			}
 			
 			
+
 			
 			
 			
