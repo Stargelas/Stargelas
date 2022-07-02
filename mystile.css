@@ -6,6 +6,7 @@
 			--titlecolor : #ffffff ;
 			--textcolor : #437ca3 ;
 			--bordercolor :  #ffffff ;
+			--toptitlecolor : #fac31e ;
 			}
 			
 			body{
@@ -38,6 +39,7 @@
 			p{
 			text-shadow: 1px 1px var(--titlecolor) ;
 			font-size: 1.5em;
+			font-weight: 500;
 			}
 			
 			ul{
@@ -137,6 +139,17 @@
 			border : 1px solid var(--bordercolor);
 			}
 			
+			.title{
+			border : 1px solid var(--bordercolor);
+			text-shadow: 1px 1px var(--shadowcolor);
+			color : var(--textcolor) ; 
+			text-align : left ;
+			background-color: var(--toptitlecolor) ;
+			width : 70% ;
+			margin : auto ;
+			overflow : auto ;
+			}
+			
 			.title-sub{
 			text-shadow: 2px 2px var(--titleshadowcolor);
 			color : #0f2f45 ;
@@ -164,14 +177,18 @@
 			width : 90% ;
 			color: var(--textcolor) ;
 			text-align: left ;
+			height : 100%;
+			padding-right : 10px ;
 			}
 			
 			.antras{
 			text-shadow: 1px 1px var(--titleshadowcolor);
-			margin-left : 40px ;
+			margin-left : 20px ;
 			width : 250px ;
 			color: var(--titlecolor);
 			text-align: left ;
+			padding-left : 10px ;
+			border-left : 1px solid var(--bordercolor);
 			}
 			
 			.tris{
@@ -195,6 +212,10 @@
 			width : 170px ;
 			color: var(--textcolor);
 			text-align: left ;
+			color: var(--titlecolor);
+			margin-left : 50px ;
+			padding-left : 10px;
+			border-left : 1px solid var(--bordercolor);
 			}
 			
 			.pristatimas{
@@ -239,6 +260,7 @@
 			background-color: var(--frontcolor) ;
 			width : 70% ;
 			margin : auto ;
+			overflow : auto ;
 			}
 			
 			.aprasimas{
@@ -331,3 +353,89 @@
 			.active{
 			background-color: #ffe187;
 			}
+			
+			
+
+			
+			* {
+			box-sizing: border-box;
+			}
+
+			.menu {
+ 			float: left;
+ 			width: 20%;
+ 			text-align: center;
+			}
+
+			.main {
+			float: left;
+ 			width: 70%;
+			text-align : left ;
+			
+
+			}
+
+			.right {
+			float: right;
+ 			width: 30%;
+			text-align : left ;
+			
+			
+			}
+
+			@media only screen and (max-width: 620px) {
+ 			/* For mobile phones: */
+ 			.menu, .main, .right, .merg_2, .pirmas {
+  			width: 100%;
+			text-align : center ;
+				}
+			}
+			
+			
+			
+			
+			.menu_2 {
+			width : 45% ;
+ 			float: left;
+ 			text-align: left;
+			text-shadow: 2px 2px var(--titleshadowcolor);
+			color : #0f2f45 ;
+			text-align : left ;
+			padding-left : 20px ;
+			}
+
+			.merg_2{
+
+			width : 20% ;
+			float: left ;
+			text-align : left ;
+			text-decoration: underline black ;
+			}
+
+			.main_2 {
+
+			width : 20% ;
+			float: left;
+			text-align : center ;
+			}
+
+			.right_2 {
+			padding-left : 20px ;
+			width : 30%;
+			float: right;
+			text-align : right ;
+			text-decoration: underline black ;
+			margin-top : -10px ;
+			margin-right : 20px ;
+			}
+
+			@media only screen and (max-width: 620px) {
+ 			/* For mobile phones: */
+ 			.menu_2, .merg_2, .main_2, .right_2, .pirmas {
+  			width: 100%;
+			text-align : center ;
+				}
+			}
+
+
+
