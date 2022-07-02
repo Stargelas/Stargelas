@@ -100,7 +100,7 @@
 			border : 1px solid var(--bordercolor);
 			cursor: pointer;
 			width: 70%;
-			height : 110px ;
+
 			text-align: center;
 			outline: none;
 			font-size: 15px;
@@ -226,6 +226,7 @@
 			background-color: var(--frontcolor) ;
 			width : 70% ;
 			margin : auto ;
+			padding-right : 10px ;
 			}
 			
 			.bottomtitle-group{
@@ -246,7 +247,7 @@
 			
 			.kateg{
 			text-shadow: 2px 2px var(--titleshadowcolor);
-			margin : auto ;
+			margin-left : 20px ;
 			width : 70% ;
 			color: var(--textcolor) ;
 			text-align: left ;
@@ -310,8 +311,9 @@
 			text-align: center;
 			outline: none;
 			font-size: 0.5em ;
-			width : 15% ;
+			height : 50px ;
 			margin : auto ;
+			width : 100px ;
 			}
 			
 			.collapsible_2:hover{
@@ -390,15 +392,15 @@
 			
 			@media only screen and (max-width: 1000px) {
  			/* For mobile phones: */
- 			.menu, .main, .right, .merg_2, .pirmas, .title, .tris, .keturis, .pristatimas, .bottomtitle-group {
-  			width: 80%;
+ 			.menu, .main, .right, .merg_2, .pirmas, .title, .tris, .keturis, .pristatimas, .bottomtitle-group, .content, .collapsible, .right_2, .menu_2, .main_2, .right_2 {
+  			width: 85%;
 			text-align : center ;
 				}
 			}
 			
 			@media only screen and (max-width: 800px) {
  			/* For mobile phones: */
- 			.menu, .main, .right, .merg_2, .pirmas, .title, .tris, .keturis, .pristatimas, .bottomtitle-group {
+ 			.menu, .main, .right, .merg_2, .pirmas, .title, .tris, .keturis, .pristatimas, .bottomtitle-group, .content, .collapsible, .right_2, .menu_2, .main_2, .right_2 {
   			width: 100%;
 			text-align : center ;
 				}
@@ -414,7 +416,7 @@
 			text-shadow: 2px 2px var(--titleshadowcolor);
 			color : #0f2f45 ;
 			text-align : left ;
-			padding-left : 20px ;
+			padding-left : 10px ;
 			}
 
 			.merg_2{
