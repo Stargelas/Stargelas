@@ -129,19 +129,18 @@
 			
 			.title-group{
 			display : grid ;
-			grid-template-columns: 40% 30% 30%;
+			grid-template-columns: 45% 20% 35%;
 			text-align : center ;
 			background-color: #fac31e ;
 			width : 70% ;
-			height : 110px ;
 			margin : auto ;
+			border : 1px solid var(--bordercolor);
 			}
 			
 			.title-sub{
 			text-shadow: 2px 2px var(--titleshadowcolor);
 			color : #0f2f45 ;
 			text-align : left ;
-			height : 110px ;
 			}
 			
 			.title-dub{
@@ -149,7 +148,7 @@
 			margin-top : -10px ;
 			margin-right : 20px ;
 			text-align : right ;
-			height : 110px ;
+
 			}
 
 			.lentele{
@@ -215,13 +214,13 @@
 			text-align : center ;
 			background-color: #fac31e ;
 			width : 70% ;
-			height : 75px ;
+
 			margin : auto ;
 			}
 			
 			.bottomtitle-dub{
 			text-decoration: underline black ;
-			height : 100px ;
+
 			}
 			
 			.kateg{
@@ -332,6 +331,3 @@
 			.active{
 			background-color: #ffe187;
 			}
-			
-			
-			
