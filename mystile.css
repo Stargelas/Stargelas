@@ -289,8 +289,7 @@
 			}
 			
 			.item2{
-			margin : auto ;
-			width : 50% ;
+			width : 100% ;
 			}
 			
 			.content_title_sub{
@@ -361,6 +360,11 @@
 			text-shadow: 1px 1px var(--shadowcolor);
 			color : var(--textcolor) ; 
 			text-align : center ;
+			padding-right : 10px ;
+			}
+			
+			.content_3 a{
+			font-size: 0.8em ;
 			}
 			
 			.content_title_group_2{
@@ -414,7 +418,7 @@
 			
 			@media only screen and (max-width: 1000px) {
  			/* For mobile phones: */
- 			.menu, .main, .right, .merg_2, .pirmas, .title, .tris, .keturis, .pristatimas, .bottomtitle-group, .content, .collapsible, .right_2, .menu_2, .main_2, .right_2, .main_3, .right_3  {
+ 			.menu, .main, .right, .merg_2, .pirmas, .title, .tris, .keturis, .pristatimas, .bottomtitle-group, .content, .collapsible, .right_2, .menu_2, .main_2, .right_2, .main_3, .right_3, .main_4, .right_4  {
   			width: 85%;
 			text-align : center ;
 				}
@@ -422,7 +426,7 @@
 			
 			@media only screen and (max-width: 800px) {
  			/* For mobile phones: */
- 			.menu, .main, .right, .merg_2, .pirmas, .title, .tris, .keturis, .pristatimas, .bottomtitle-group, .content, .collapsible, .right_2, .menu_2, .main_2, .right_2, .main_3, .right_3  {
+ 			.menu, .main, .right, .merg_2, .pirmas, .title, .tris, .keturis, .pristatimas, .bottomtitle-group, .content, .collapsible, .right_2, .menu_2, .main_2, .right_2, .main_3, .right_3, .main_4, .right_4  {
   			width: 100%;
 			text-align : center ;
 				}
@@ -465,24 +469,39 @@
 			
 			.main_3 {
 			float: left;
- 			width: 35%;
+ 			width: 30%;
 			text-align : left ;
 			}
 			
 			.right_3 {
 			float: right;
- 			width: 65%;
+ 			width: 70%;
+			margin : auto ;
+			color: var(--textcolor) ;
+			text-align: center ;
+			}
+			
+			.main_4 {
+			float: left;
+ 			width: 50%;
+			text-align : left ;
+			}
+			
+			.right_4 {
+			float: right;
+ 			width: 50%;
 			margin : auto ;
 			color: var(--textcolor) ;
 			text-align: center ;
 			}
 			
 			.penkis{
-			width : 90% ;
+			width : 95% ;
 			margin : auto ;
 			color: var(--textcolor) ;
 			text-align: center ;
 			height : 100%;
+			padding-right : 10px ;
 			}
 			
 			.penkis h2{
@@ -493,10 +512,12 @@
 			font-size: 0.8em ;
 			text-align : center ;
 			}
+			
+			
 
 			@media only screen and (max-width: 620px) {
  			/* For mobile phones: */
- 			.menu_2, .merg_2, .main_2, .right_2, .pirmas, .main_3, .right_3 {
+ 			.menu_2, .merg_2, .main_2, .right_2, .pirmas, .main_3, .right_3, .main_4, .right_4 {
   			width: 100%;
 			text-align : center ;
 				}
